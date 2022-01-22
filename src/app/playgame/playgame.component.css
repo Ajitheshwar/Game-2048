@@ -1,0 +1,120 @@
+.score
+{
+    border-radius: 5px;
+    background-color: rgba(128, 68, 23, 0.521);
+    color: rgb(255, 247, 240) ;
+}
+
+
+@media screen and (min-width : 400px) {
+
+    .scorebar
+    {
+        width : 368px;
+    }
+
+
+    .colstyle
+    {
+        padding :1% 1% 1% 1%;
+        height : 90px;
+        width :90px;
+    }
+    .textsize1
+    {
+        padding-top : 15px;
+        text-align: center;
+        font-size: 32px;
+    }
+    .textsize2
+    {
+        padding-top : 17px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .textsize3
+    {
+        padding-top : 19px;
+        text-align: center;
+        font-size: 28px;
+
+    }
+    .textsize4
+    {
+        padding-top : 20px;
+        text-align: center;
+        font-size: 26px;
+    }
+    .textsize5
+    {
+        padding-top : 23px;
+        text-align: center;
+        font-size: 22px;
+    }
+    .textsize6
+    {
+        text-align: center;
+        font-size : 14px;
+    }
+    .textsize7
+    {
+        text-align: center;
+        font-size : 36px;
+        font-weight: 500;
+    }
+}
+@media screen and (max-width : 400px) {
+
+    .scorebar
+    {
+        width : 228 px;
+    }
+
+    .colstyle
+    {
+        padding :1% 1% 1% 1%;
+        height : 55px;
+        width : 55px;
+    }
+    .textsize1
+    {
+        padding-top : 7px;
+        text-align: center;
+        font-size: 22px;
+    }
+    .textsize2
+    {
+        padding-top : 8px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .textsize3
+    {
+        padding-top : 9px;
+        text-align: center;
+        font-size: 19px;
+    }
+    .textsize4
+    {
+        padding-top : 10px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .textsize5
+    {
+        padding-top : 12px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .textsize6
+    {
+        text-align: center;
+        font-size : 12px;
+    }
+    .textsize7
+    {
+        text-align: center;
+        font-size : 30px;
+        font-weight: 500;
+    }
+}
