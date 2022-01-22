@@ -5,7 +5,7 @@ const app=exp()
 require("dotenv").config();
 
 //assign port no.
-const port=process.env.PORT
+const port=process.env.PORT || 4300
 app.listen(port,()=>{ console.log(`Server listening on port ${port}`)})
 
 //import json middleware
