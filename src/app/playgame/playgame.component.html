@@ -18,11 +18,11 @@
 </div>
 
 <div class='d-flex'>
-    <div class="mx-auto rounded p-1" style="background-color: rgba(134, 78, 14, 0.507) ;" >
+    <div class="mx-auto rounded p-1" style="background-color: rgba(134, 78, 14, 0.507) ;" (touchmove)="move($event)" (touchstart)="start($event)" (touchend)="end($event)">
         <div *ngFor="let row of game" class="row mx-0">
             <div *ngFor="let col of row" class='col-3 colstyle' >
                 <div *ngIf="col==0"     class="rounded h-100" style="background-color: rgba(255, 253, 253, 0.295) ;"></div>
-                <div *ngIf="col==2"     class="rounded h-100 textsize1" style="color: rgba(43, 22, 6, 0.747);    background-color: rgba(229, 203, 168, 0.87) ;"> <b>{{col}}</b></div>
+                <div *ngIf="col==2"     class="rounded h-100 textsize1" style="color: rgba(24, 13, 4, 0.747);    background-color: rgba(229, 203, 168, 0.87) ;"> <b>{{col}}</b></div>
                 <div *ngIf="col==4"     class="rounded h-100 textsize1" style="color: rgba(43, 22, 6, 0.747);    background-color: rgba(224, 164, 114, 0.911) ;"><b>{{col}}</b></div>
                 <div *ngIf="col==8"     class="rounded h-100 textsize1" style="color: rgba(43, 22, 6, 0.747);    background-color: rgba(248, 168, 76, 0.938) ;"> <b>{{col}}</b></div>
                 <div *ngIf="col==16"    class="rounded h-100 textsize2" style="color: rgba(43, 22, 6, 0.747);    background-color: rgba(238, 153, 73, 0.938) ;"> <b>{{col}}</b></div>
